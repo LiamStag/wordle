@@ -1,0 +1,49 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 7vw;
+	height: 40px;
+	margin: 2px;
+	border: none;
+	border-radius: 6px;
+	flex-shrink: 0;
+	cursor: pointer;
+	font-size: 1.6rem;
+	font-weight: 600;
+	background-color: #fff;
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+	user-select: none;
+
+	&:active {
+		background-color: #ccc;
+	}
+
+	@media (min-width: 415px) {
+		height: 40px;
+		width: 45px;
+	}
+}
+
+.button-enter {
+	width: 95px;
+}
+
+.button-backspace {
+	width: 95px;
+
+	@media (min-width: 415px) {
+		width: 45px;
+	}
+}
+
+.button_true {
+	color: white;
+	background-color: #009933;
+}
+
+.button_truefalse {
+	color: white;
+	background-color: #ff9900;;
+}
+

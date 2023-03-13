@@ -1,0 +1,9 @@
+.buttons {
+	max-width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	@media (min-width: 415px) {
+		max-width: 600px;
+	}
+}
